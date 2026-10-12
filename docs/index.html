@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Open Anime Studio</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header class='top'>
+  <div class='brand'>Open Anime Studio <small>free / open-source</small></div>
+  <div class='conn'>
+    <input id='backend' type='text' aria-label='Backend URL'>
+    <button id='connect' type='button'>Connect</button>
+  </div>
+</header>
+<main>
+  <section id='layers' class='layers'></section>
+  <p id='status' class='status'>Not connected. Start the local backend (see README), then press Connect.</p>
+
+  <section class='card'>
+    <h2>1 &middot; Describe your video</h2>
+    <form id='input-form'></form>
+  </section>
+
+  <section id='plan-section' class='card' hidden>
+    <h2>2 &middot; Scenes</h2>
+    <div id='plan-head'></div>
+    <div class='row'>
+      <label class='field'><span>Keyframe provider</span><select id='image-provider'></select></label>
+      <label class='field'><span>Video provider</span><select id='video-provider'></select></label>
+      <label class='field'><span>Clip FPS</span><input id='fps' type='number' value='24' min='8' max='60'></label>
+      <label class='check'><input id='use-ref' type='checkbox' checked> Use reference image</label>
+    </div>
+    <p id='provider-detail' class='muted'></p>
+    <div id='scenes'></div>
+  </section>
+
+  <section id='assemble-section' class='card' hidden>
+    <h2>3 &middot; Assemble</h2>
+    <div id='assemble-form'></div>
+    <div id='final'></div>
+  </section>
+
+  <details class='card'>
+    <summary>Feature status: what is real and what is not</summary>
+    <div id='features'></div>
+  </details>
+</main>
+<footer>No paid APIs. This page only talks to the backend URL above; generation runs on your own hardware.</footer>
+<script src='app.js'></script>
+</body>
+</html>
