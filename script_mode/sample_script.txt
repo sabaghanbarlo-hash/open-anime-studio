@@ -1,0 +1,6 @@
+# title: pronouns_demo
+@character Haru | young Japanese man, short black hair, white t-shirt
+@character Mio | young woman, long brown hair, green dress with white collar
+わたしたち | Watashitachi | We | Five diverse friends smiling and waving, Haru pointing at himself in the center | 4
+彼女[かのじょ] | Kanojo | She | Haru gesturing politely toward Mio who stands smiling | 3
+友達[ともだち] | Tomodachi | Friend | Haru and a friend high-fiving with a white spark burst | 3
