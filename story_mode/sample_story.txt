@@ -1,0 +1,10 @@
+# title: The Fox and the Moon
+@character Kaito | skin=#f6d3b6, hair=#2a2030, shirt=#2a9d8f, style=short, voice=en-US-GuyNeural
+@character Mia | skin=#e9b998, hair=#6b3a2a, shirt=#e76f51, style=long, voice=en-US-JennyNeural
+[bg: moonlit forest clearing, glowing fireflies]
+Once upon a time, a boy named Kaito lived at the edge of a quiet forest.
+Every night he looked up and wondered how it would feel to touch the moon.
+Mia: "You can't catch the moon, Kaito. It's much too far away!"
+Kaito: "Then I'll climb the tallest tree and find out for myself."
+[bg: a quiet village at dawn, warm light]
+In the morning the whole village was laughing, and Kaito had never felt happier.
